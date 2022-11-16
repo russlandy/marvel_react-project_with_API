@@ -14,12 +14,6 @@ class CharList extends Component {
         error: false
     }
 
-    componentDidMount = () => {
-        this.MarvelService.getAllCharacters()
-        .then(this.onCharLoaded)
-        .catch(this.onError)
-    }
-
     onCharLoaded = (charList) => {
         this.setState({charList, loading: false})
     }
