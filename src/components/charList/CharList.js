@@ -13,7 +13,7 @@ class CharList extends Component {
         loading: true,
         error: false,
         newItemLoading: false,
-        offset: 1550,
+        offset: 789,
         charEnded: false
     }
     marvelService = new MarvelService();
